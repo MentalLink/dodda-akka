@@ -1,0 +1,38 @@
+.transcript-container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.transcript-messages {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.message.user {
+  background: #e3f2fd;
+  margin-left: 20px;
+}
+
+.message.assistant {
+  background: #f5f5f5;
+  margin-right: 20px;
+}
+
+.message-speaker {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.message-text {
+  line-height: 1.4;
+} 

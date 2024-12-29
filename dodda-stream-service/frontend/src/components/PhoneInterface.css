@@ -1,0 +1,51 @@
+.phone-container {
+  width: 300px;
+  padding: 20px;
+}
+
+.phone {
+  border: 2px solid #333;
+  border-radius: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.phone-screen {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  height: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.call-status {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.phone-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.call-button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.call-button.active {
+  background: #f44336;
+}
+
+.call-button:hover {
+  transform: scale(1.1);
+} 
