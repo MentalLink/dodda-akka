@@ -181,7 +181,7 @@ Hold Institutions Accountable: Advocate for transparent policies that address in
         """
         
         # Configure Gemini
-        genai.configure(api_key='AIzaSyBco7C-oBK-6mx6qYIznGrTw4z9Ky2NdYk')
+        genai.configure(api_key='API_KEY')
         self.model = genai.GenerativeModel('gemini-1.5-flash')
 
     def process_audio(self, audio_data):

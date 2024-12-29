@@ -19,7 +19,7 @@ class LiveAudioTranscriber:
         self.SILENCE_THRESHOLD = 30  # Number of silent frames before stopping
         
         # Configure Gemini
-        genai.configure(api_key='AIzaSyBco7C-oBK-6mx6qYIznGrTw4z9Ky2NdYk')
+        genai.configure(api_key='API_KEY')
         self.model = genai.GenerativeModel('gemini-1.5-flash')
 
     def audio_callback(self, indata, frames, time, status):

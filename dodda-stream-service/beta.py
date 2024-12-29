@@ -96,7 +96,7 @@ class LiveAudioTranscriber:
         """
         
         # Configure Gemini
-        genai.configure(api_key='AIzaSyBco7C-oBK-6mx6qYIznGrTw4z9Ky2NdYk')
+        genai.configure(api_key='API')
         self.model = genai.GenerativeModel('gemini-1.5-flash')
         self.model_pro = genai.GenerativeModel('gemini-1.5-pro')
         
@@ -351,7 +351,7 @@ class LiveAudioTranscriber:
             }
             headers = {
                 'accept': 'application/json',
-                'api-subscription-key': '4d3340f6-8600-420b-a69b-bb87ced80f7f'  # Replace with actual API key
+                'api-subscription-key': 'API-KEY'  # Replace with actual API key
             }
             response = requests.post(url, files=files, headers=headers)
 
