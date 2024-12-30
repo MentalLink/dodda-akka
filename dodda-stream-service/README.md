@@ -34,8 +34,8 @@ pip install sounddevice numpy wave webrtcvad google-generativeai google-cloud-te
 
 2. Set up credentials:
    - Place Google Cloud credentials JSON file in project directory
-   - Update Gemini API key in code (current: 'AIzaSyBco7C-oBK-6mx6qYIznGrTw4z9Ky2NdYk')
-   - Update Sarvam API key in code (current: '4d3340f6-8600-420b-a69b-bb87ced80f7f')
+   - Update Gemini API key in code 
+   - Update Sarvam API key in code 
 
 3. Ensure you have:
    - Working microphone
