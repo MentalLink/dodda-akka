@@ -11,7 +11,7 @@ files = {
 
 headers = {
     'accept': 'application/json',
-    'api-subscription-key': '4d3340f6-8600-420b-a69b-bb87ced80f7f'  # Replace with actual API key
+    'api-subscription-key': 'API-KEY'  # Replace with actual API key
 }
 
 response = requests.post(url, files=files, headers=headers)
